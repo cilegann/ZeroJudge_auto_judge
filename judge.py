@@ -1,7 +1,6 @@
 import requests
 import sys
 import os
-import numpy as np
 from bs4 import BeautifulSoup
 import time
 accountsF=sys.argv[1]
@@ -30,7 +29,7 @@ result = session_requests.post(
 	headers = head
 )
 
-for acc in range(5):
+for acc in range(len(accounts)):
     scores.append([])
     for tod in range(len(todo)):
         payloads ={
