@@ -14,7 +14,6 @@
 ```
 python 3.5 or above
 requests 2.18 or above
-beautifulsoup4 4.6.0 or above
 ```
 You can simply run ```pip3 install -r requirements.txt``` to install these required packages
 
