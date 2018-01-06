@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import time
 accountsF=sys.argv[1]
 todoF=sys.argv[2]
-loginF='./login'
+loginF='./data/login'
 resultF=sys.argv[3]
 with open(accountsF,'r') as file:
     accounts=file.readlines()[0].split(',')
