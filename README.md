@@ -1,8 +1,9 @@
+# ZeroJudge_auto_judge
+
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
-# ZeroJudge_auto_judge
-:100:zerojudge自動評分
-抓取特定ID在特定題目上的AC情形
+
+自動抓取[zerojudge](https://zerojudge.tw)中，特定使用者在特定題目上的AC情形
 
 
 ## Getting Started
@@ -36,9 +37,9 @@ A valid account and its password of Zerojudge. Delimiters = ','
 python3 judge.py account todo <outputfile.csv>
 ```
 
-## Authors
+## Author
 
-* **Yu-Hsuan Chiu (Sean)** - [cilegann](https://github.com/cilegann)
+* **Yu-Hsuan Chiu (Sean)** - [cilegann](https://seanchiu.cf)
 
 ## License
 
