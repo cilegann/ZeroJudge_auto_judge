@@ -1,7 +1,6 @@
 import requests
 import sys
 import os
-from bs4 import BeautifulSoup
 import time
 accountsF=sys.argv[1]
 todoF=sys.argv[2]
