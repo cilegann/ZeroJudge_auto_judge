@@ -24,18 +24,19 @@ You can simply run ```pip3 install -r requirements.txt``` to install these requi
 ```
 3 files to modify:
 
-* accout
+* accouts file (e.g. src/data/account)
 the accouts to be judged. Delimiters = ','
 
-* todo
+* problemIDs file (e.g. src/data/todo)
 the id of problems to be judged. Delimiters = ','
 
-* login
+* src/data/login
 A valid account and its password of Zerojudge. Delimiters = ','
 ```
 #### Run program
 ```
-python3 judge.py account todo <outputfile.csv>
+cd src
+python3 judge.py <path_to_your_accounts_file> <path_to_your_problemIDs_file> <path_to_output_file>
 ```
 
 ## Author
