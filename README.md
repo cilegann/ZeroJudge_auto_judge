@@ -23,17 +23,17 @@ You can simply run ```pip3 install -r requirements.txt``` to install these requi
 ```
 2 files to modify:
 
-* accouts file (src/data/account)
+* accouts file (Put it in src/data/)
 the accouts to be judged. Delimiters = ','
 
-* problemIDs file (src/data/todo)
+* problemIDs file (Put it i src/data/)
 the id of problems to be judged. Delimiters = ','
 
 ```
 #### Run program
 ```
 cd src
-python3 judge.py <path_to_your_accounts_file> <path_to_your_problemIDs_file> <path_to_output_file>
+python3 judge.py <your_accounts_file_name_in_data_folder> <your_problemIDs_file_name_in_data_folder> <path_to_output_file>
 ```
 
 ## Author
