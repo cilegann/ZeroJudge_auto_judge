@@ -76,4 +76,6 @@ if __name__ == "__main__":
                     file.write(scores[i][j])
                 file.write('\n')
         print("Result saved as "+resultF)
+        print("Logging out..")
+        result=session_requests.get("https://zerojudge.tw/Logout")
         print("Jod done at "+time.asctime( time.localtime(time.time()) ))
