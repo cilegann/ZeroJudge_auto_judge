@@ -5,6 +5,8 @@
 
 自動抓取[zerojudge](https://zerojudge.tw)中，特定使用者在特定題目上的AC情形
 
+## Attention please
+目前網站新增了 google recaptcha v3 機制，尚未解決此問題
 
 ## Getting Started
 
